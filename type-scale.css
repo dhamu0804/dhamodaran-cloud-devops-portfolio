@@ -1,0 +1,60 @@
+/* Recruiter-friendly type sizes: readable body copy, restrained display headings. */
+body{font-size:16px}
+.site-nav{font-size:15px}
+.brand-name{font-size:17px}
+.site-nav .nav-contact{font-size:14px}
+.hero h1{font-size:clamp(58px,6.2vw,80px)}
+.hero-intro{font-size:16px;line-height:1.75}
+.hero-actions .button{font-size:14px}
+.hero-caption{font-size:14px}
+.hero .eyebrow{font-size:11px}
+.metrics>p{font-size:12px}
+.tech-logos{font-size:14px}
+.section-heading h2{font-size:clamp(44px,4.6vw,62px)}
+.about-intro h2{font-size:clamp(42px,4vw,56px)}
+.contact-section h2{font-size:clamp(48px,5.5vw,74px)}
+.section-note,.about-copy{font-size:15px;line-height:1.8}
+.project-kicker,.timeline-type{font-size:10px}
+.project-info h3,.timeline-content h3{font-size:22px}
+.project-info p{font-size:15px;line-height:1.75}
+.tag-row span{font-size:10px}
+.timeline-date{font-size:12px}
+.timeline-content .company{font-size:14px}
+.timeline-content ul{font-size:14px;line-height:1.8}
+.detail-label{font-size:10px}
+.skill-group>span{font-size:13px}
+.skill-group p,.education-entry p,.cert-row p{font-size:13.5px;line-height:1.7}
+.education-entry strong{font-size:13px}
+.education-entry>span,.cert-row>span{font-size:10px}
+.about-intro .text-link,.text-link{font-size:14px}
+.contact-email{font-size:15px}
+.contact-links a,.contact-links button{font-size:11px}
+.site-footer{font-size:11px}
+.infra-label,.deploy-top,.deploy-card>small,.hero-art-tag,.cloud-stamp b{font-size:9px}
+.infra-top strong,.infra-service b,.deploy-card>strong{font-size:13px}
+.infra-service small,.infra-footer,.deploy-flow{font-size:9px}
+.live-badge{font-size:9px}
+.hero-availability b{font-size:10px}
+.hero-availability small{font-size:9px}
+
+@media(max-width:900px){
+  .hero h1{font-size:clamp(54px,7.2vw,70px)}
+  .hero-intro{font-size:15.5px}
+  .project-info p,.timeline-content ul{font-size:14px}
+}
+
+@media(max-width:640px){
+  .site-nav{font-size:15px}
+  .hero h1{font-size:clamp(50px,12.5vw,66px)}
+  .hero-intro{font-size:15px}
+  .hero-actions .button{font-size:12px}
+  .hero-caption{font-size:12px}
+  .section-heading h2{font-size:clamp(38px,10vw,46px)}
+  .about-intro h2{font-size:clamp(36px,9.5vw,44px)}
+  .contact-section h2{font-size:clamp(43px,11.5vw,58px)}
+  .project-info h3,.timeline-content h3{font-size:19px}
+  .project-info p,.timeline-content ul{font-size:14px}
+  .about-copy{font-size:14px}
+  .skill-group p,.education-entry p,.cert-row p{font-size:12.5px}
+  .contact-email{font-size:12px}
+}
